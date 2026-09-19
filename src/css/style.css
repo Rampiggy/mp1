@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    font-family: monospace;
+    background: black;
+    color: white;
+    font-size: 18px;
+}
+
+/* The section above the navbar */
+.top {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.top h1 {
+    font-size: 50px;
+    color: #E5E5E5;
+}
+
+.top p,
+.top a {
+    font-size: 20px;
+}
+
+.top a {
+    color: lightblue;
+}
+
+/* The navbar */
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-family: monospace;
+    background: #14213D;
+    color: #E5E5E5;
+}
+
+nav p {
+    font-size: 40px;
+}
+
+h2 {
+    color: #FCA311;
+    font-size: 30px;
+}
