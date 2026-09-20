@@ -4,6 +4,10 @@ Below are the references I used to help me complete MP1.
 
 ---
 
+## W3Schools
+
+- https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+
 ## MDN
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family
@@ -42,3 +46,7 @@ Below are the references I used to help me complete MP1.
 ## The Odin Project
 
 - https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events
+
+## JavaScript Tutorial
+
+- https://www.javascripttutorial.net/javascript-dom/javascript-mouse-events/

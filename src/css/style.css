@@ -28,6 +28,11 @@ body {
 }
 
 /* The navbar */
+nav {
+    position: sticky;
+    top: 0px;
+}
+
 nav ul {
     display: flex;
     flex-flow: row wrap;
@@ -45,7 +50,14 @@ nav li {
     margin: 10px 0px;
 }
 
+/* In-between navbar and footer */
 h2 {
     color: #FCA311;
     font-size: 30px;
+}
+
+/* Footer */
+footer {
+    /* TODO: This is for testing. Remove when done. */
+    margin-bottom: 1000px;
 }
