@@ -39,6 +39,8 @@ nav {
 
 nav p {
     font-size: 40px;
+    padding: 6px;
+    border: 5px solid #14213D;
 }
 
 h2 {
