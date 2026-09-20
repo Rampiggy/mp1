@@ -20,6 +20,7 @@ Below are the references I used to help me complete MP1.
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/cursor
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a#attr-target
 
 ## CSS Games
 
@@ -42,6 +43,7 @@ Below are the references I used to help me complete MP1.
 - https://stackoverflow.com/questions/19215517/attaching-a-scss-to-html-docs
 - https://stackoverflow.com/questions/991160/how-to-make-my-font-bold-using-css
 - https://stackoverflow.com/questions/7185044/change-the-mouse-cursor-on-mouse-over-to-anchor-like-style
+- https://stackoverflow.com/questions/15551779/open-link-in-new-tab-or-window
 
 ## The Odin Project
 
