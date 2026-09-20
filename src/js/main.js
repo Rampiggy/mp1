@@ -1,4 +1,4 @@
-const navItems = document.querySelectorAll("nav p");
+const navItems = document.querySelectorAll("nav li");
 
 navItems.forEach((navItem) => {
 	navItem.addEventListener("mouseenter", (e) => {

@@ -28,19 +28,21 @@ body {
 }
 
 /* The navbar */
-nav {
+nav ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     font-family: monospace;
     background: #14213D;
     color: #E5E5E5;
+    list-style-type: none;
 }
 
-nav p {
+nav li {
     font-size: 40px;
     padding: 6px;
     border: 5px solid #14213D;
+    margin: 10px 0px;
 }
 
 h2 {
