@@ -21,6 +21,7 @@ Below are the references I used to help me complete MP1.
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/cursor
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a#attr-target
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/outline
 
 ## CSS Games
 
@@ -44,11 +45,11 @@ Below are the references I used to help me complete MP1.
 - https://stackoverflow.com/questions/991160/how-to-make-my-font-bold-using-css
 - https://stackoverflow.com/questions/7185044/change-the-mouse-cursor-on-mouse-over-to-anchor-like-style
 - https://stackoverflow.com/questions/15551779/open-link-in-new-tab-or-window
+- https://stackoverflow.com/questions/36712750/how-to-show-mouse-pointer-in-responsive-mode
 
-## The Odin Project
+## Random
 
 - https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events
-
-## JavaScript Tutorial
-
+- https://www.nngroup.com/articles/modal-nonmodal-dialog/
 - https://www.javascripttutorial.net/javascript-dom/javascript-mouse-events/
+- https://www.hotsymbol.com/symbol/em-dash
