@@ -27,6 +27,7 @@ Below are the references I used to help me complete this project.
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/outline
 - https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-decoration
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover
 
 ---
 
@@ -60,6 +61,7 @@ Below are the references I used to help me complete this project.
 - https://stackoverflow.com/questions/15551779/open-link-in-new-tab-or-window
 - https://stackoverflow.com/questions/36712750/how-to-show-mouse-pointer-in-responsive-mode
 - https://stackoverflow.com/questions/67839180/navbar-covering-content-when-i-click-on-a-link-to-navigate-to-different-sections
+- https://stackoverflow.com/questions/11471709/mouse-hover-make-only-the-text-bold-the-underline-should-be-normal
 
 ---
 

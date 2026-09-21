@@ -23,6 +23,11 @@ body {
 	border: 5px solid black;
 }
 
+.top img:hover {
+	cursor: pointer;
+	border-bottom: 5px solid #fca311;
+}
+
 .top dialog {
 	background: rgb(0, 0, 0, 90%);
 	border: solid #14213d 3px;
@@ -46,6 +51,11 @@ body {
 
 .top a {
 	color: lightblue;
+	text-decoration: inherit;
+}
+
+.top a:hover {
+	font-weight: bold;
 }
 
 /* The navbar */
@@ -69,6 +79,12 @@ nav ul li {
 	padding: 6px;
 	border: 5px solid #14213d;
 	margin: 10px 0px;
+}
+
+nav ul li:hover {
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: 5px solid #fca311;
 }
 
 nav ul li a {
