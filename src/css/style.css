@@ -1,79 +1,89 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 95px;
+}
+
 body {
-    margin: 0px;
-    font-family: monospace;
-    background: black;
-    color: white;
-    font-size: 18px;
+	margin: 0px;
+	font-family: monospace;
+	background: black;
+	color: white;
+	font-size: 18px;
 }
 
 /* The section above the navbar */
 .top {
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 30px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 30px;
 }
 
 .top img {
-    padding: 6px;
-    border: 5px solid black;
+	padding: 6px;
+	border: 5px solid black;
 }
 
 .top dialog {
-    background: rgb(0, 0, 0, 90%);
-    border: solid #14213D 3px;
-    outline: #14213D;
+	background: rgb(0, 0, 0, 90%);
+	border: solid #14213d 3px;
+	outline: #14213d;
 }
 
 .top dialog p {
-    color: white;
+	color: white;
 }
 
 .top h1 {
-    margin-top: 22.5px;
-    font-size: 50px;
-    color: #E5E5E5;
+	margin-top: 22.5px;
+	font-size: 50px;
+	color: #e5e5e5;
 }
 
 .top p,
 .top a {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .top a {
-    color: lightblue;
+	color: lightblue;
 }
 
 /* The navbar */
 nav {
-    position: sticky;
-    top: 0px;
+	position: sticky;
+	top: 0px;
 }
 
 nav ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    font-family: monospace;
-    background: #14213D;
-    color: #E5E5E5;
-    list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	font-family: monospace;
+	background: #14213d;
+	color: #e5e5e5;
+	list-style-type: none;
 }
 
-nav li {
-    font-size: 40px;
-    padding: 6px;
-    border: 5px solid #14213D;
-    margin: 10px 0px;
+nav ul li {
+	font-size: 40px;
+	padding: 6px;
+	border: 5px solid #14213d;
+	margin: 10px 0px;
+}
+
+nav ul li a {
+	color: inherit;
+	text-decoration: inherit;
 }
 
 /* In-between navbar and footer */
 h2 {
-    color: #FCA311;
-    font-size: 30px;
+	color: #fca311;
+	font-size: 30px;
 }
 
 /* Footer */
 footer {
-    /* TODO: This is for testing. Remove when done. */
-    margin-bottom: 1000px;
+	/* TODO: This is for testing. Remove when done. */
+	margin-bottom: 1000px;
 }
