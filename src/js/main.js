@@ -5,14 +5,19 @@ picOfMe.addEventListener("click", (e) => {
 	picOfMeDialog.showModal();
 });
 
+const divBeforeNav = document.createElement("div");
+const nav = document.querySelector("nav");
+nav.before(divBeforeNav);
+
 const navListItems = document.querySelectorAll("nav ul li");
 window.addEventListener("scroll", () => {
-	if (window.scrollY < 510) {
+	const topNavScrollY = divBeforeNav.getBoundingClientRect().y;
+	if (topNavScrollY >= 0) {
 		navListItems.forEach((navListItem) => {
 			navListItem.style.fontSize = "40px";
 			navListItem.style.margin = "10 0px";
 		});
-	} else if (window.scrollY > 530) {
+	} else if (topNavScrollY < (nav.clientHeight * -1) / 2) {
 		navListItems.forEach((navListItem) => {
 			navListItem.style.fontSize = "32px";
 			navListItem.style.margin = "3px";
