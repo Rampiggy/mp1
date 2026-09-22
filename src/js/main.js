@@ -12,16 +12,11 @@ nav.before(divBeforeNav);
 const navListItems = document.querySelectorAll("nav ul li");
 window.addEventListener("scroll", () => {
 	const topNavScrollY = divBeforeNav.getBoundingClientRect().y;
+	const halfwayDownOfNav = (nav.clientHeight / 2) * -1;
 	if (topNavScrollY >= 0) {
-		navListItems.forEach((navListItem) => {
-			navListItem.style.fontSize = "40px";
-			navListItem.style.margin = "10 0px";
-		});
-	} else if (topNavScrollY < (nav.clientHeight * -1) / 2) {
-		navListItems.forEach((navListItem) => {
-			navListItem.style.fontSize = "32px";
-			navListItem.style.margin = "3px";
-		});
+		makeNavListItemsBig(navListItems);
+	} else if (topNavScrollY < halfwayDownOfNav) {
+		makeNavListItemsSmall(navListItems);
 	}
 
 	const currScrollY = window.scrollY;
@@ -29,3 +24,17 @@ window.addEventListener("scroll", () => {
 		.querySelector("#projects")
 		.getBoundingClientRect().y;
 });
+
+function makeNavListItemsBig(navListItems) {
+	navListItems.forEach((navItem) => {
+		navItem.style.fontSize = "40px";
+		navItem.style.margin = "10 0px";
+	});
+}
+
+function makeNavListItemsSmall(navListItems) {
+	navListItems.forEach((navListItem) => {
+		navListItem.style.fontSize = "32px";
+		navListItem.style.margin = "3px";
+	});
+}
