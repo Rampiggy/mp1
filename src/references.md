@@ -4,6 +4,10 @@ Below are the references I used to help me complete this project.
 
 ---
 
+## Office Hours
+
+- Attended Arjun's office hours to discuss navbar, semantic html, general design, etc.
+
 ## W3Schools
 
 - https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
@@ -63,6 +67,7 @@ Below are the references I used to help me complete this project.
 - https://stackoverflow.com/questions/36712750/how-to-show-mouse-pointer-in-responsive-mode
 - https://stackoverflow.com/questions/67839180/navbar-covering-content-when-i-click-on-a-link-to-navigate-to-different-sections
 - https://stackoverflow.com/questions/11471709/mouse-hover-make-only-the-text-bold-the-underline-should-be-normal
+- https://stackoverflow.com/questions/45373444/how-to-get-the-height-in-pixels-in-pure-javascript/45373578
 
 ---
 
@@ -91,3 +96,4 @@ Below are the references I used to help me complete this project.
 - https://www.hotsymbol.com/symbol/em-dash
 - https://www.hotsymbol.com/symbol/en-dash
 - https://css-tricks.com/almanac/properties/s/scroll-behavior/
+- https://attacomsian.com/blog/javascript-insert-element-before
