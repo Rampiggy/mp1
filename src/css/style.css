@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	margin: 0px;
+	margin: 0px 50px;
 	font-family: monospace;
 	background: black;
 	color: white;
@@ -93,13 +93,34 @@ nav ul li a {
 }
 
 /* In-between navbar and footer */
+section {
+	margin: 80px 0px;
+}
+
 h2 {
 	color: #fca311;
 	font-size: 30px;
 }
 
-/* Footer */
-footer {
-	/* TODO: This is for testing. Remove when done. */
-	margin-bottom: 1000px;
+.experience-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.experience-item {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	background: #14213d;
+	width: 300px;
+	padding: 5px 20px 15px 5px;
+	margin: 15px;
+}
+
+.ppm-america,
+.addison-group {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
 }

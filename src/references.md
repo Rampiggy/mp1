@@ -28,6 +28,7 @@ Below are the references I used to help me complete this project.
 - https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-decoration
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-basis
 
 ---
 
@@ -70,10 +71,15 @@ Below are the references I used to help me complete this project.
 ### Kevin Powell
 
 - https://www.youtube.com/watch?v=iGUSTyG-CYw&t=51s
+- https://www.youtube.com/watch?v=ULdkpU51hTQ
 
 ### What Jack Has Made
 
 - https://www.youtube.com/watch?v=2Vk_Qdep2ZI
+
+### Byte Grad
+
+- https://www.youtube.com/watch?v=bOUhq46fd5g
 
 ---
 

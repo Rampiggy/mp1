@@ -12,26 +12,27 @@
 </head>
 
 <body>
-    <div class="top">
-        <img src="assets/pic-of-me.png" height="200"
-            alt="A relaxed picture of me in shorts and a beach button down shirt">
-        <dialog closedby="any">
-            <img src="assets/pic-of-me.png" height="500"
+    <header>
+        <div class="top">
+            <img src="assets/pic-of-me.png" height="200"
                 alt="A relaxed picture of me in shorts and a beach button down shirt">
-            <p>— Hawaii, circa 2022</p>
-        </dialog>
+            <dialog closedby="any">
+                <img src="assets/pic-of-me.png" height="500"
+                    alt="A relaxed picture of me in shorts and a beach button down shirt">
+                <p>— Hawaii, circa 2022</p>
+            </dialog>
 
-        <h1>MILES PLURAD</h1>
-
-        <p>
-            <a href="mailto:git@rampiggy.dev" target="_blank" rel="noreferrer">Email</a>
-            |
-            <a href="https://github.com/Rampiggy" target="_blank" rel="noreferrer">GitHub</a>
-        </p>
-
-        <p>Full-time software engineer and part-time student, pursuing a <em>Master of Computer Science</em> degree at
-            UIUC.</p>
-    </div>
+            <h1>MILES PLURAD</h1>
+            <p>
+                <a href="mailto:git@rampiggy.dev" target="_blank" rel="noreferrer">Email</a>
+                |
+                <a href="https://github.com/Rampiggy" target="_blank" rel="noreferrer">GitHub</a>
+            </p>
+            <p>Full-time software engineer and part-time student, pursuing a <em>Master of Computer Science</em> degree
+                at
+                UIUC.</p>
+        </div>
+    </header>
 
     <nav>
         <ul>
@@ -41,29 +42,78 @@
         </ul>
     </nav>
 
-    <h2 id="projects">Projects</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo illum eos
-        natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo illum eos
-        natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
+    <main>
 
-    <h2 id="experience">Experience</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo illum eos
-        natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo illum eos
-        natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
-    <img src="assets/ui-path-certification.png" height="200"
-        alt="A certification titled 'UiPath Certified Professional Associate RPA Developer' which was issued on June 25, 2021">
+        <section>
+            <h2 id="projects">Projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo
+                illum
+                eos
+                natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo
+                illum
+                eos
+                natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
+        </section>
 
-    <h2 id="skills">Skills</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo illum eos
-        natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo illum eos
-        natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
+        <section>
+            <h2 id="experience">Work Experience</h2>
 
-    <footer>My footer</footer>
-    <!-- TODO: This is for testing. Remove when done. -->
-    yo
+            <ul class="experience-list">
+
+                <li class="experience-item">
+                    <h3>PPM America</h3>
+                    <ul class="ppm-america">
+                        <li>May 2022 - Present</li>
+                        <li>Software Engineer</li>
+                        <li>Built C# desktop apps and internal NuGet packages</li>
+                    </ul>
+                </li>
+
+                <li class="experience-item">
+                    <h3>Addison Group</h3>
+                    <ul class="addison-group">
+                        <li>Nov 2021 - May 2022</li>
+                        <li>Software Integration Engineer</li>
+                        <li>Built C# desktop apps and ETL processes in SSIS</li>
+                    </ul>
+                </li>
+
+                <li class="experience-item">
+                    <h3>Infosys</h3>
+                    <ul class="infosys">
+                        <li>Mar 2021 - Oct 2022</li>
+                        <li>Associate Software Developer</li>
+                        <li>Built RPA workflows in UiPath</li>
+                    </ul>
+                    <!--<img src="assets/ui-path-certification.png" height="200"
+                    alt="A certification titled 'UiPath Certified Professional Associate RPA Developer' which was issued on June 25, 2021">
+            -->
+                </li>
+
+                <li class="experience-item">
+                    <h3>DePaul University</h3>
+                    <ul class="infosys">
+                        <li>Jan 2019 - Jun 2020</li>
+                        <li>Supplemental Instructor</li>
+                        <li>Assisted in classes Discrete Math & Quantitative Reasoning</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="skills">Skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo
+                illum eos
+                natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis voluptatem cumque nisi nemo
+                illum eos
+                natus corporis amet, dolorem vitae magni laborum voluptatibus at! Dolorem nulla eius atque. Ab!</p>
+        </section>
+    </main>
+
+    <footer>TODO: social icons</footer>
 </body>
 
 </html>
