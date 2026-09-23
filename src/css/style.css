@@ -9,6 +9,7 @@ body {
 	background: black;
 	color: white;
 	font-size: 18px;
+	text-align: center;
 }
 
 /* The section above the navbar */
@@ -23,7 +24,7 @@ body {
 	border: 5px solid black;
 }
 
-.top img:hover {
+#profile-pic:hover {
 	cursor: pointer;
 	border-bottom: 5px solid #fca311;
 }
