@@ -12,7 +12,7 @@ body {
 	text-align: center;
 }
 
-/* The section above the navbar */
+/* Start of Header */
 .top {
 	text-align: center;
 	padding-bottom: 10px;
@@ -58,8 +58,9 @@ body {
 .top a:hover {
 	font-weight: bold;
 }
+/* End of Header */
 
-/* The navbar */
+/* Start of Navbar */
 nav {
 	position: sticky;
 	top: 0px;
@@ -95,15 +96,16 @@ nav ul li a {
 	color: inherit;
 	text-decoration: inherit;
 }
+/* End of Navbar */
 
-/* In-between navbar and footer */
+/* Start of Main Content */
 section {
 	margin: 80px 0px;
 }
 
 h2 {
 	color: #fca311;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .experience-list {
@@ -122,6 +124,7 @@ h2 {
 	padding: 5px 20px 15px 5px;
 	margin: 15px;
 }
+/* End of Main Content */
 
 footer {
 	background: #fca311;
