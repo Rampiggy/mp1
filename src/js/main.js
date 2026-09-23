@@ -32,7 +32,7 @@ window.addEventListener("scroll", () => {
 	const experienceScrollY = experience.getBoundingClientRect().y;
 	const skillsScrollY = skills.getBoundingClientRect().y;
 
-	const sectionReachedScrollY = nav.clientHeight + 30;
+	const sectionReachedScrollY = nav.clientHeight + 45;
 	const projectsAtTop = projectsScrollY < sectionReachedScrollY;
 	const experienceAtTop = experienceScrollY < sectionReachedScrollY;
 	const skillsAtTop = skillsScrollY < sectionReachedScrollY;
