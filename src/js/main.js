@@ -10,6 +10,11 @@ const nav = document.querySelector("nav");
 nav.before(divBeforeNav);
 
 const navListItems = document.querySelectorAll("nav ul li");
+
+const projectsNav = document.querySelector("#projects-nav");
+const experienceNav = document.querySelector("#experience-nav");
+const skillsNav = document.querySelector("#skills-nav");
+
 window.addEventListener("scroll", () => {
 	const topNavScrollY = divBeforeNav.getBoundingClientRect().y;
 	const halfwayDownOfNav = (nav.clientHeight / 2) * -1;
@@ -19,10 +24,36 @@ window.addEventListener("scroll", () => {
 		makeNavListItemsSmall(navListItems);
 	}
 
-	const currScrollY = window.scrollY;
-	const projectsScrollY = document
-		.querySelector("#projects")
-		.getBoundingClientRect().y;
+	const projects = document.querySelector("#projects");
+	const experience = document.querySelector("#experience");
+	const skills = document.querySelector("#skills");
+
+	const projectsScrollY = projects.getBoundingClientRect().y;
+	const experienceScrollY = experience.getBoundingClientRect().y;
+	const skillsScrollY = skills.getBoundingClientRect().y;
+
+	const sectionReachedScrollY = nav.clientHeight + 30;
+	const projectsAtTop = projectsScrollY < sectionReachedScrollY;
+	const experienceAtTop = experienceScrollY < sectionReachedScrollY;
+	const skillsAtTop = skillsScrollY < sectionReachedScrollY;
+
+	if (!projectsAtTop) {
+		projectsNav.style.fontWeight = "normal";
+		experienceNav.style.fontWeight = "normal";
+		skillsNav.style.fontWeight = "normal";
+	} else if (projectsAtTop && !experienceAtTop) {
+		projectsNav.style.fontWeight = "bold";
+		experienceNav.style.fontWeight = "normal";
+		skillsNav.style.fontWeight = "normal";
+	} else if (experienceAtTop && !skillsAtTop) {
+		projectsNav.style.fontWeight = "normal";
+		experienceNav.style.fontWeight = "bold";
+		skillsNav.style.fontWeight = "normal";
+	} else {
+		projectsNav.style.fontWeight = "normal";
+		experienceNav.style.fontWeight = "normal";
+		skillsNav.style.fontWeight = "bold";
+	}
 });
 
 function makeNavListItemsBig(navListItems) {
