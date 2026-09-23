@@ -36,6 +36,7 @@ Below are the references I used to help me complete this project.
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-basis
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/z-index
+- https://developer.mozilla.org/en-US/docs/Web/API/CSSAnimation
 
 ---
 
