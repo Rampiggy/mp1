@@ -155,10 +155,8 @@ footer {
 	margin: 0px -50px;
 	position: relative;
 	z-index: 0;
-}
-
-footer a {
-	position: relative;
+	box-sizing: border-box;
+	height: 74px;
 }
 
 .left-background-image,
