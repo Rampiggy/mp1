@@ -12,6 +12,7 @@ Below are the references I used to help me complete this project.
 
 - https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
 - https://www.w3schools.com/js/js_events_mouse.asp
+- https://www.w3schools.com/tags/tag_video.asp
 
 ---
 
