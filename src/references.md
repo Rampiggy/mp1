@@ -61,6 +61,7 @@ Below are the references I used to help me complete this project.
 - https://www.reddit.com/r/Frontend/comments/1c3ulvd/css_best_practices_classes_vs_target_elements/
 - https://www.reddit.com/r/learnjavascript/comments/13xq312/is_using_script_defer_in_head_theoretically_same/
 - https://www.reddit.com/r/learnjavascript/comments/cjdcu4/append_and_appendchild_difference_newbie/
+- https://www.reddit.com/r/webflow/comments/1kxy82e/why_is_my_navbar_not_sticking/
 
 ---
 
