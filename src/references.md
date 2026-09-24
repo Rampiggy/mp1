@@ -75,6 +75,7 @@ Below are the references I used to help me complete this project.
 - https://stackoverflow.com/questions/11471709/mouse-hover-make-only-the-text-bold-the-underline-should-be-normal
 - https://stackoverflow.com/questions/45373444/how-to-get-the-height-in-pixels-in-pure-javascript/45373578
 - https://stackoverflow.com/questions/17598996/sass-use-variables-across-multiple-files
+- https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
 
 ---
 
