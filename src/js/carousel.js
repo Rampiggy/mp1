@@ -27,5 +27,11 @@ function showSlide(slideIncrement) {
 		slide.style.display = "none";
 	});
 
+	if (slideIncrement === -1) {
+		slides[currSlideIndex].style.animationName = "slide-in-from-left";
+	} else if (slideIncrement === 1) {
+		slides[currSlideIndex].style.animationName = "slide-in-from-right";
+	}
+
 	slides[currSlideIndex].style.display = "block";
 }

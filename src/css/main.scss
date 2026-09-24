@@ -31,8 +31,8 @@ h2 {
 
 .carousel {
 	background: $navbar-color;
-	width: 200px;
-	height: 150px;
+	width: 300px;
+	height: 300px;
 	margin: auto;
 	padding: 20px;
 	box-sizing: border-box;
@@ -40,15 +40,26 @@ h2 {
 }
 
 .carousel-slide {
-	animation: fall-from-above 1.5s both;
+	margin: 5px 10px;
+	animation-duration: 0.1s;
+	animation-timing-function: ease-in;
 }
 
-@keyframes fall-from-above {
+@keyframes slide-in-from-right {
 	0% {
-		transform: translateY(-39px);
+		transform: translateX(40px);
 	}
 	100% {
-		transform: translateY(0);
+		transform: translateX(0);
+	}
+}
+
+@keyframes slide-in-from-left {
+	0% {
+		transform: translateX(-40px);
+	}
+	100% {
+		transform: translateX(0);
 	}
 }
 

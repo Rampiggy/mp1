@@ -37,6 +37,8 @@ Below are the references I used to help me complete this project.
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-basis
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/z-index
 - https://developer.mozilla.org/en-US/docs/Web/API/CSSAnimation
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
 
 ---
 
@@ -90,6 +92,10 @@ Below are the references I used to help me complete this project.
 ### Byte Grad
 
 - https://www.youtube.com/watch?v=bOUhq46fd5g
+
+### CSSnippets
+
+- https://www.youtube.com/watch?v=9gbFljxZXDE
 
 ---
 
