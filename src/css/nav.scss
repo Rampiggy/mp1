@@ -3,13 +3,12 @@
 nav {
 	position: sticky;
 	top: 0px;
-	margin: 0px -50px;
 	z-index: 2;
 }
 
 nav ul {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	justify-content: space-evenly;
 	font-family: monospace;
 	background: $navbar-color;

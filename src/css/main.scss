@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	margin: 0px 50px;
+	margin: 0;
 	font-family: monospace;
 	background: $background-color;
 	color: white;
@@ -16,7 +16,6 @@ body {
 
 main {
 	background: $background-color;
-	margin: auto -50px;
 	position: relative;
 	z-index: 1;
 }
