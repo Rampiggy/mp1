@@ -1,0 +1,26 @@
+@import "variables.scss";
+
+footer {
+	background: $section-header-color;
+	padding: 10px;
+	margin: 0px -50px;
+	position: relative;
+	z-index: 0;
+	box-sizing: border-box;
+	height: 74px;
+}
+
+.left-background-image,
+.right-background-image {
+	position: fixed;
+}
+
+.left-background-image {
+	left: 0px;
+	bottom: 0px;
+}
+
+.right-background-image {
+	right: 0px;
+	bottom: 0px;
+}

@@ -4,10 +4,15 @@
  */
 
 // HTML Files
-import './index.html';
+import "./index.html";
 
 // Stylesheets
-import './css/main.scss';
+import "./css/header.scss";
+import "./css/nav.scss";
+import "./css/main.scss";
+import "./css/footer.scss";
 
 // Scripts
-import './js/main.js';
+import "./js/dialog.js";
+import "./js/carousel.js";
+import "./js/nav.js";
