@@ -62,6 +62,7 @@ Below are the references I used to help me complete this project.
 - https://www.reddit.com/r/learnjavascript/comments/13xq312/is_using_script_defer_in_head_theoretically_same/
 - https://www.reddit.com/r/learnjavascript/comments/cjdcu4/append_and_appendchild_difference_newbie/
 - https://www.reddit.com/r/webflow/comments/1kxy82e/why_is_my_navbar_not_sticking/
+- https://www.reddit.com/r/csshelp/comments/17b6g6c/how_to_force_flexitem_height_to_shrink_at_the/
 
 ---
 
@@ -112,3 +113,4 @@ Below are the references I used to help me complete this project.
 - https://attacomsian.com/blog/javascript-insert-element-before
 - https://brand.github.com/foundations/logo
 - https://www.svgrepo.com/svg/490388/surfing
+- https://www.freecodecamp.org/news/css-properties-examples/
