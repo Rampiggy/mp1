@@ -24,7 +24,19 @@
 	outline: $navbar-color;
 }
 
-.top dialog img {
+#close-dialog {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	max-width: 10%;
+	max-height: auto;
+}
+
+#close-dialog:hover {
+	cursor: pointer;
+}
+
+#expanded-profile-pic {
 	max-width: 80%;
 	height: auto;
 }
