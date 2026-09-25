@@ -68,16 +68,30 @@ h2 {
 	}
 }
 
-.prev-slide {
+.slide-number,
+.prev-slide,
+.next-slide {
 	position: absolute;
-	bottom: 10px;
-	left: 10px;
+	bottom: 5px;
+}
+
+.slide-number {
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.prev-slide {
+	left: 5px;
 }
 
 .next-slide {
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
+	right: 5px;
+}
+
+.prev-slide:hover,
+.next-slide:hover {
+	cursor: pointer;
 }
 
 .experience-list {

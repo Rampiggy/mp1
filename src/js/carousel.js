@@ -1,12 +1,14 @@
-let currSlideIndex = 0;
-showSlide(currSlideIndex);
-
+const slideNumber = document.querySelector(".slide-number");
 const prevSlideButton = document.querySelector("button.prev-slide");
+const nextSlideButton = document.querySelector("button.next-slide");
+let currSlideIndex = 0;
+
+showSlide(0);
+
 prevSlideButton.addEventListener("click", () => {
 	showSlide(-1);
 });
 
-const nextSlideButton = document.querySelector("button.next-slide");
 nextSlideButton.addEventListener("click", () => {
 	showSlide(1);
 });
@@ -32,6 +34,7 @@ function showSlide(slideIncrement) {
 	} else if (slideIncrement === 1) {
 		slides[currSlideIndex].style.animationName = "slide-in-from-right";
 	}
-
 	slides[currSlideIndex].style.display = "block";
+
+	slideNumber.textContent = `${currSlideIndex + 1} / ${slides.length}`;
 }

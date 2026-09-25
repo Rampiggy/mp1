@@ -4,10 +4,6 @@ Below are the references I used to help me complete this project.
 
 ---
 
-## Office Hours
-
-- Attended Arjun's office hours to discuss navbar, semantic html, general design, etc.
-
 ## W3Schools
 
 - https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
@@ -39,6 +35,7 @@ Below are the references I used to help me complete this project.
 - https://developer.mozilla.org/en-US/docs/Web/API/CSSAnimation
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
 ---
 
@@ -102,7 +99,7 @@ Below are the references I used to help me complete this project.
 
 ---
 
-## Random
+## Misc.
 
 - https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events
 - https://www.nngroup.com/articles/modal-nonmodal-dialog/
@@ -114,3 +111,11 @@ Below are the references I used to help me complete this project.
 - https://brand.github.com/foundations/logo
 - https://www.svgrepo.com/svg/490388/surfing
 - https://www.freecodecamp.org/news/css-properties-examples/
+- https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/
+
+---
+
+## Office Hours
+
+- Attended Arjun's office hours to discuss navbar, semantic html, and general design
+- Attended Rizky's office hours to discuss background and general layout
