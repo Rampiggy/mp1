@@ -1,4 +1,32 @@
-$background-color: black;
-$navbar-color: #14213d;
-$navbar-font-color: #e5e5e5;
-$section-header-color: #fca311;
+$darkest-color: black;
+$blue-color: #14213d;
+$orange-color: #fca311;
+$off-white-color: #e5e5e5;
+$lightest-color: white;
+
+$top-h1-font-color: $off-white-color;
+$top-background-color: $darkest-color;
+$top-font-color: $lightest-color;
+$top-hover-image-color: $orange-color;
+$top-dialog-outline-color: $blue-color;
+$top-dialog-font-color: $lightest-color;
+$top-anchor-font-color: lightblue;
+
+$nav-background-color: $orange-color;
+$nav-font-color: $darkest-color;
+$nav-hover-color: $lightest-color;
+
+$h2-font-color: $orange-color;
+
+$projects-background-color: $darkest-color;
+$projects-font-color: $lightest-color;
+$projects-card-background-color: $blue-color;
+
+$experience-background-color: $blue-color;
+$experience-font-color: $lightest-color;
+$experience-card-background-color: $darkest-color;
+
+$skills-background-color: $darkest-color;
+$skills-font-color: $lightest-color;
+
+$footer-background-color: $orange-color;

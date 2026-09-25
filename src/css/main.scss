@@ -13,7 +13,6 @@ html {
 body {
 	margin: 0;
 	font-family: monospace;
-	color: white;
 	font-size: 18px;
 	text-align: center;
 }
@@ -29,17 +28,18 @@ section {
 }
 
 h2 {
-	color: $section-header-color;
+	color: $h2-font-color;
 	font-size: 40px;
 	margin-top: 0;
 }
 
 .projects-section {
-	background-color: black;
+	background-color: $projects-background-color;
+	color: $projects-font-color;
 }
 
 .carousel {
-	background: $navbar-color;
+	background: $projects-card-background-color;
 	width: 300px;
 	height: 250px;
 	margin: auto;
@@ -99,7 +99,8 @@ h2 {
 }
 
 .experience-section {
-	background: $navbar-color;
+	background: $experience-background-color;
+	color: $experience-font-color;
 }
 
 .experience-list {
@@ -114,7 +115,7 @@ h2 {
 	display: flex;
 	flex-flow: column wrap;
 	align-items: center;
-	background: black;
+	background: $experience-card-background-color;
 	width: 300px;
 	padding: 5px 20px 15px 5px;
 	margin: 15px;
@@ -134,5 +135,6 @@ h2 {
 }
 
 .skills-section {
-	background: black;
+	background: $skills-background-color;
+	color: $skills-font-color;
 }
