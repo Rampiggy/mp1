@@ -127,6 +127,7 @@ Below are the references I used to help me complete this project.
 - https://css-tricks.com/almanac/properties/s/scroll-behavior/
 - https://attacomsian.com/blog/javascript-insert-element-before
 - https://brand.github.com/foundations/logo
+- https://www.pexels.com/video/snowboarder-descending-pristine-snowy-slope-29049283/
 
 ---
 
