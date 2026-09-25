@@ -13,30 +13,29 @@ html {
 body {
 	margin: 0;
 	font-family: monospace;
-	background: $background-color;
 	color: white;
 	font-size: 18px;
 	text-align: center;
 }
 
 main {
-	background: $background-color;
 	position: relative;
 	z-index: 1;
 }
 
 section {
-	margin: 100px 0px;
+	margin: 0;
+	padding: 50px 0;
 }
 
 h2 {
 	color: $section-header-color;
 	font-size: 40px;
+	margin-top: 0;
 }
 
 .projects-section {
-	margin-top: 0;
-	padding-top: 76px;
+	background-color: black;
 }
 
 .carousel {
@@ -99,18 +98,23 @@ h2 {
 	cursor: pointer;
 }
 
+.experience-section {
+	background: $navbar-color;
+}
+
 .experience-list {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
-	padding: 0px;
+	padding: 0;
+	margin-bottom: 0;
 }
 
 .experience-item {
 	display: flex;
 	flex-flow: column wrap;
 	align-items: center;
-	background: $navbar-color;
+	background: black;
 	width: 300px;
 	padding: 5px 20px 15px 5px;
 	margin: 15px;
@@ -127,4 +131,8 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 300px;
+}
+
+.skills-section {
+	background: black;
 }
