@@ -99,19 +99,34 @@ Below are the references I used to help me complete this project.
 
 ---
 
+### SVG Repo
+
+- https://www.svgrepo.com/svg/490388/surfing
+- https://www.svgrepo.com/svg/522797/close-square
+
+---
+
+### Hot Symbol
+
+- https://www.hotsymbol.com/symbol/em-dash
+- https://www.hotsymbol.com/symbol/en-dash
+---
+
+### Free Code Camp
+
+- https://www.freecodecamp.org/news/css-properties-examples/
+- https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/
+
+---
+
 ## Misc.
 
 - https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events
 - https://www.nngroup.com/articles/modal-nonmodal-dialog/
 - https://www.javascripttutorial.net/javascript-dom/javascript-mouse-events/
-- https://www.hotsymbol.com/symbol/em-dash
-- https://www.hotsymbol.com/symbol/en-dash
 - https://css-tricks.com/almanac/properties/s/scroll-behavior/
 - https://attacomsian.com/blog/javascript-insert-element-before
 - https://brand.github.com/foundations/logo
-- https://www.svgrepo.com/svg/490388/surfing
-- https://www.freecodecamp.org/news/css-properties-examples/
-- https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/
 
 ---
 

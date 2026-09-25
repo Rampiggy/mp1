@@ -1,5 +1,11 @@
 @import "variables.scss";
 
+h1 {
+	margin-top: 22.5px;
+	font-size: 50px;
+	color: #e5e5e5;
+}
+
 .top {
 	text-align: center;
 	padding-bottom: 10px;
@@ -24,6 +30,10 @@
 	outline: $navbar-color;
 }
 
+.top dialog img {
+	border: transparent;
+}
+
 #close-dialog {
 	position: absolute;
 	top: 5px;
@@ -43,12 +53,6 @@
 
 .top dialog p {
 	color: white;
-}
-
-.top h1 {
-	margin-top: 22.5px;
-	font-size: 50px;
-	color: #e5e5e5;
 }
 
 .top p,
